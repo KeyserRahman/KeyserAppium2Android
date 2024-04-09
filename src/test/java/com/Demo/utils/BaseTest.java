@@ -1,4 +1,4 @@
-package com.cydeo.utils;
+package com.Demo.utils;
 
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.android.AndroidDriver;
@@ -35,7 +35,7 @@ public class BaseTest {
         //create iOS Driver object to automate iOS app
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("RehemanEmulator");
-        options.setApp(ConfigurationReader.getProperty("app1"));
+        options.setApp(com.cydeo.utils.ConfigurationReader.getProperty("app1"));
         //options.setApp("\\Users\\rehem\\Appium\\src\\test\\java\\resources\\Google-Translate_Apkpure.apk");
         //options.setApp("\\Users\\rehem\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"),options);

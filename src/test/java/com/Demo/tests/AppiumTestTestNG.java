@@ -1,5 +1,5 @@
-package com.cydeo.tests;
-import com.cydeo.utils.BaseTest;
+package com.Demo.tests;
+import com.Demo.utils.BaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;

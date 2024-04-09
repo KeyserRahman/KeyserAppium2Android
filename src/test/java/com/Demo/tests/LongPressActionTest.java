@@ -1,6 +1,6 @@
-package com.cydeo.tests;
+package com.Demo.tests;
 
-import com.cydeo.utils.BaseTest;
+import com.Demo.utils.BaseTest;
 import com.cydeo.utils.MobileUtils;
 import com.google.common.collect.ImmutableBiMap;
 import com.google.common.collect.ImmutableMap;
